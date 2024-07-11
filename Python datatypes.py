@@ -1,8 +1,14 @@
+#List Functions  
 '''
 #append
 my_list=[1,3,5,7,8]
 my_list.append(4)
 print(my_list)
+
+#Remove
+list1 = [1, 2, 3, 'Aravind', 4, 5]
+list1.remove(2)
+print('List after removal:', list1)
 
 #extend
 list1=[1,3,4,5]
